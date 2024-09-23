@@ -1,0 +1,27 @@
+{
+  "buildOptions": {},
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "ESNext",
+    "lib": [
+      "ES6",
+      "DOM",
+      "ES2017",
+      "DOM.Iterable"
+    ],
+    "moduleResolution": "Bundler",
+    "declaration": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist"
+  },
+  "include": [
+    "src",
+    "__tests__",
+    "*.config.ts",
+    "sandbox.ts",
+    "sandbox-ui.js"
+  ]
+}
