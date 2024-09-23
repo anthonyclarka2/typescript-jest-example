@@ -4,7 +4,7 @@ const PORT = process.env.PORT ?? "8080";
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Engage test opentelemetry response");
+  res.send("Test opentelemetry response");
   console.log("Request for /");
 });
 
